@@ -17,12 +17,13 @@ html {
 h1 {
   font-size: 1.5rem;
   color: #222;
+  font-weight: normal;
 }
 
 blockquote {
   font-size: 1.125rem;
   color: #999;
-  padding: 0 1rem 1.3rem 1rem;
+  padding: 0 1rem 1.3rem;
 }
 
 h1 + p {
@@ -30,5 +31,9 @@ h1 + p {
 }
 
 ol {
-  text-align: left;
+  padding: 0 1rem 1.3rem;
+}
+
+body {
+  padding: 0 1rem 1.3rem;
 }
