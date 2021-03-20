@@ -2,7 +2,6 @@ html {
   box-sizing: border-box;
   font-family: "Crimson Text", serif;
   line-height: 1.3;
-  color: #555;
 }
 
 *, *::before, *::after {
@@ -11,29 +10,36 @@ html {
 
 .quote {
   font-size: 1.125rem;
+  color: #555;
+}
+
+blockquote {
+  font-size: 1.125rem;
+  color: #555;
+  padding: 0 1rem;
+}
+
+h1 + p {
+  font-style: italic;
   color: #999;
+}
+
+article ol {
+  padding: 0 1rem;
 }
 
 h1 {
   font-size: 1.5rem;
   color: #222;
   font-weight: normal;
-}
-
-blockquote {
-  font-size: 1.125rem;
-  color: #999;
-  padding: 0 1rem 1.3rem;
-}
-
-h1 + p {
-  font-style: italic;
-}
-
-ol {
-  padding: 0 1rem 1.3rem;
+  padding-bottom: 0;
 }
 
 body {
-  padding: 0 1rem 1.3rem;
+  padding: 1em;
+  margin: 0;
+}
+
+article {
+  padding: 0 0 1.3rem;
 }
